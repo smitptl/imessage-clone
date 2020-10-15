@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Imessage.css";
 import Sidebar from './Sidebar';
+import Chat from "./Chat";
 
 function Imessage() {
     return (
@@ -10,6 +11,7 @@ function Imessage() {
             <Sidebar />
 
             {/* chat */}
+            <Chat />
         </div>
     )
 }
